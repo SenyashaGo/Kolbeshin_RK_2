@@ -1,0 +1,28 @@
+/* Default */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 375px;
+}
+
+/* Header */
+
+.logoText{
+    display: flex;
+    flex-direction: row;
+    padding-top: 41px;
+    padding-left: 16px;
+    align-items: center;
+
+}
+
+.burger{
+    padding-top: 45px;
+    padding-left: 319px;
+}
+
+.burger_button{
+
+}
