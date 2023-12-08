@@ -1,5 +1,9 @@
 /* Default */
-
+:root {
+    font-size: 62.5%;
+    font-family: "Inter", sans-serif;
+    --text-color3: #fff;
+}
 * {
     padding: 0;
     margin: 0;
@@ -9,20 +13,103 @@
 
 /* Header */
 
-.logoText{
-    display: flex;
+
+.header{
+    display:flex;
     flex-direction: row;
-    padding-top: 41px;
-    padding-left: 16px;
+    justify-content: space-between;
     align-items: center;
 
 }
-
-.burger{
-    padding-top: 45px;
-    padding-left: 319px;
+.logoText{
+    display: flex;
+    flex-direction: row;
+    padding-top: 4.1rem;
+    padding-left: 1.6rem;
+    align-items: center;
 }
 
-.burger_button{
 
+
+/* Main */
+
+.topText{
+    color: #18216d;
+    text-align: center;
+    font-size: 2.8rem;
+    margin-top: 4.1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.6875rem;
+}
+
+.topPodText{
+    color: #18216d;
+    max-width: 29.1rem;
+    text-align: center;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+    margin-top: 2rem;
+
+}
+
+.featuresText{
+    color: #00ecd0;
+    font-size: 2.4rem;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem;
+    letter-spacing: -0.0625rem;
+    text-transform: capitalize;
+}
+
+.startButton{
+    border-radius: 0.375rem;
+    width: 12rem;
+    height: 4rem;
+    border: none;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    color: #18216d;
+    margin-top: 3.3rem;
+    background: #00ecd0;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features{
+    margin-left: 3rem;
+}
+
+.features-logo{
+    margin-top: 4.1rem;
+    margin-bottom: 2rem;
+}
+
+.pricing{
+    color: #18216d;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.4rem;
+}
+
+.pricingText{
+    color: #18216d;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.4rem;
+    opacity: 0.6;
+    margin-top: 1.2rem;
+    margin-bottom: 6.9rem;
+    padding-right: 2.5rem;
 }
